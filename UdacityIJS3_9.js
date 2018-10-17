@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var education = "no high school diploma";
 var salary;
 
@@ -25,3 +26,32 @@ default:
 }
 
 console.log("In 2015\, a person with " + education + " earned an average of \$" + salary.toLocaleString("en-US") + "\/year.");
+=======
+var education = "no high school diploma";
+var salary;
+
+switch (education) {
+case "a high school diploma":
+  salary=35256;
+  break;
+case "an Associate\'s degree":
+  salary=41496;
+  break;
+case "a Bachelor\'s degree":
+  salary=59124;
+  break;
+case "a Master\'s degree":
+  salary=69732;
+  break;
+case "a Professional degree":
+  salary=89960;
+  break;
+case "a Doctoral degree":
+  salary=84396;
+  break;
+default:
+  salary=25636;
+}
+
+console.log("In 2015\, a person with " + education + " earned an average of \$" + salary.toLocaleString("en-US") + "\/year.");
+>>>>>>> 138fe44f08be31486d4b8f8bfa908688a9ee0163

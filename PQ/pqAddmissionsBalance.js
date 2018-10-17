@@ -1178,7 +1178,7 @@ MautzDates = [], MosesDates = [], AdamsDates = [], SullivanDates = [], Kasenchak
     var todayFormat = Utilities.formatDate(newDate,'GMT-8',"MM/dd/yyyy");
     var current = caseloadSheet.getRange("C"+i).getValue();
     var peak = caseloadSheet.getRange("D"+i).getValue();
-    var therapistLimit = caseloadSheet.getRange("B"+i).getValue():
+    var therapistLimit = caseloadSheet.getRange("B"+i).getValue();
     caseloadSheet.getRange("F"+i).setValue(todayFormat);
     if (numberDaysSinceNixon == "-Infinity") {caseloadSheet.getRange("F"+i).setValue("TBD");}
     if (current > peak) {caseloadSheet.getRange("D"+i).setValue(current);}

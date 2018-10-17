@@ -2,7 +2,7 @@
 // Hack Reactor Application
 
 var myArray = [];
-myArray = ["Brent Kupras", "thinking.bear@gmail.com"];
+myArray = ["Brent Kupras", "thinking.bear@gmsil.com"];
 
 function cutName (name) {
      var nameSplit = [];
