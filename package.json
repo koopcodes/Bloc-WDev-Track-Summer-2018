@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"name": "javascript",
 	"version": "1.0.0",
 	"description": "Basic Vanilla JS",
@@ -16,22 +15,4 @@
 	],
 	"author": "Koop",
 	"license": "ISC"
-=======
-  "name": "javascript",
-  "version": "1.0.0",
-  "description": "UdacityIntro5_1",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "(https://github.com/koopdev/Koopz-Javascripts)"
-  },
-  "keywords": [
-    "introductory"
-  ],
-  "author": "Koop",
-  "license": "ISC"
->>>>>>> 138fe44f08be31486d4b8f8bfa908688a9ee0163
 }
